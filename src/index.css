@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme{
+    --color-background: var(--background);
+    --color-bg-home: var(--bg-home);
+    --color-text: var(--text);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-accent: var(--accent);
+}
+
+:root{
+    --background: #fff;
+    --bg-home: #fadad0;
+    --text: #000;
+    --primary: #b1adff;
+    --secondary: #eb7faa;
+    --accent: #76a28c;
+}
+
+.dark{
+    --background: #000;
+    --bg-home: #1a0108;
+    --text: #fff;
+    --primary: #2f27ce;
+    --secondary: #80143f;
+    --accent: #5d8973;
+}

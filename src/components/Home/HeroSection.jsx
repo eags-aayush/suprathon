@@ -21,13 +21,13 @@ const HeroSection = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Suprathon
+            InterviewIQ
           </h1>
           <p className="text-xl md:text-2xl font-light mb-6">
             Your all in one interview platform.
           </p>
           <p className="text-md md:text-lg mb-8 max-w-2xl mx-auto md:text-left">
-            Suprathon is a smart career platform that helps match your skills and goals with the right job opportunities. Whether you're just starting out or looking for your next move, Suprathon connects you to what fits best.
+            InterviewIQ is a smart career platform that helps match your skills and goals with the right job opportunities. Whether you're just starting out or looking for your next move, InterviewIQ connects you to what fits best.
           </p>
           <Link
             to="features"

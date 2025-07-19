@@ -1,0 +1,251 @@
+[
+  {
+    "question": "How should I prepare for a technical interview?",
+    "answer": "Start by reviewing core concepts of your field, practicing coding problems, and brushing up on system design or domain-specific topics.",
+    "examples": [
+      "Solve at least 2–3 problems daily on LeetCode or HackerRank.",
+      "Review common data structures like arrays, trees, graphs, and their algorithms.",
+      "If you're into frontend, practice building UI components like modals, navbars, or dynamic forms."
+    ]
+  },
+  {
+    "question": "What are common HR interview questions?",
+    "answer": "HR interviews often focus on your personality, communication, and cultural fit.",
+    "examples": [
+      "'Tell me about yourself'",
+      "'What are your strengths and weaknesses?'",
+      "'Why do you want to join this company?'",
+      "'Describe a time when you faced a challenge at work.'"
+    ]
+  },
+  {
+    "question": "How can I make a strong first impression?",
+    "answer": "Your first impression is shaped by punctuality, appearance, confidence, and communication.",
+    "examples": [
+      "Dress in neat business casual attire.",
+      "Greet with a smile and firm handshake or polite nod.",
+      "Maintain eye contact and be attentive when listening."
+    ]
+  },
+  {
+    "question": "What if I don’t know the answer to a question?",
+    "answer": "It's okay to admit it — interviewers often value your thinking process more than correctness.",
+    "examples": [
+      "Say: 'I'm not sure, but I'd approach it like this...'",
+      "Break the question down into parts you do understand.",
+      "Offer to follow up with an answer later — and actually do it."
+    ]
+  },
+  {
+    "question": "How do I answer 'Tell me about yourself'?",
+    "answer": "Keep your answer concise and focused on your professional journey, key skills, and motivation for the role.",
+    "examples": [
+      "I'm a final-year BCA student with a passion for web development. I’ve built multiple full-stack projects using React and Node.js.",
+      "I transitioned from mechanical engineering to software development after discovering a love for automation and scripting."
+    ]
+  },
+  {
+    "question": "Should I ask questions at the end of the interview?",
+    "answer": "Yes, it shows interest and preparation. Ask about the team, company culture, or expectations for the role.",
+    "examples": [
+      "'Can you tell me more about the day-to-day responsibilities of this role?'",
+      "'What does success look like for someone in this position?'",
+      "'How would you describe the team culture here?'"
+    ]
+  },
+  {
+    "question": "How do I prepare for behavioral questions?",
+    "answer": "Use the STAR method — Situation, Task, Action, Result — to structure clear, concise answers.",
+    "examples": [
+      "Tell me about a time you resolved a conflict: Used a team meeting to clarify roles and improve collaboration.",
+      "Describe a time you took initiative: Created a Notion workspace to streamline documentation and boost productivity."
+    ]
+  },
+  {
+    "question": "What are some tips for online interviews?",
+    "answer": "Online interviews require extra preparation with tech and surroundings.",
+    "examples": [
+      "Use a quiet, well-lit space with minimal distractions.",
+      "Test your camera, mic, and internet connection 15 minutes before.",
+      "Look at the camera to simulate eye contact."
+    ]
+  },
+  {
+    "question": "Can I take notes during the interview?",
+    "answer": "Yes, especially in technical or case-based rounds. It shows you’re engaged and helps you answer better.",
+    "examples": [
+      "Keep a notepad or document ready for key points.",
+      "Use notes to organize thoughts during complex questions."
+    ]
+  },
+  {
+    "question": "How do I answer 'Why should we hire you?'",
+    "answer": "Highlight your unique strengths, relevant experience, and how you align with the company's needs.",
+    "examples": [
+      "I bring a solid mix of frontend and backend skills, have real-world project experience, and thrive in team environments.",
+      "I’m adaptable, fast-learning, and have successfully led mini-projects in academic settings."
+    ]
+  },
+  {
+    "question": "What are red flags to avoid in an interview?",
+    "answer": "Avoid negativity, being unprepared, or oversharing irrelevant information.",
+    "examples": [
+      "Don’t criticize past employers or teammates.",
+      "Avoid vague or generic answers.",
+      "Don’t interrupt or dominate the conversation."
+    ]
+  },
+  {
+    "question": "How do I handle multiple interview rounds?",
+    "answer": "Stay organized, track your performance, and treat each round independently.",
+    "examples": [
+      "Maintain a spreadsheet of rounds, feedback, and status.",
+      "Reflect after each round and adjust your strategy."
+    ]
+  },
+  {
+    "question": "Should I negotiate salary as a fresher?",
+    "answer": "Yes, but politely and with research to support your case.",
+    "examples": [
+      "Check salary benchmarks on Glassdoor or Levels.fyi.",
+      "Say: 'Based on my skills and the industry average, I was expecting around X.'"
+    ]
+  },
+  {
+    "question": "Is it okay to apply again after being rejected?",
+    "answer": "Yes, especially if you’ve improved your skills or the role has changed.",
+    "examples": [
+      "Apply after 6+ months with stronger projects or certifications.",
+      "Mention growth or additional experience in your cover letter."
+    ]
+  },
+  {
+    "question": "What if the interviewer is rude?",
+    "answer": "Stay calm and professional. Reflect later on whether that company aligns with your values.",
+    "examples": [
+      "Answer firmly but politely.",
+      "Consider whether the behavior was personal or stress-test oriented."
+    ]
+  },
+  {
+    "question": "How long should my answers be?",
+    "answer": "Keep responses between 1–2 minutes unless otherwise prompted.",
+    "examples": [
+      "Use concise stories with clear takeaways.",
+      "Pause to ask if the interviewer wants more detail."
+    ]
+  },
+  {
+    "question": "What are situational interview questions?",
+    "answer": "They ask how you’d handle hypothetical situations to assess problem-solving.",
+    "examples": [
+      "'What would you do if you missed a deadline?'",
+      "'How would you resolve a team conflict?'"
+    ]
+  },
+  {
+    "question": "How do I stay calm during interviews?",
+    "answer": "Prepare thoroughly, practice mindfulness, and breathe before answering.",
+    "examples": [
+      "Use the 4-7-8 breathing technique to calm nerves.",
+      "Reframe interviews as learning opportunities, not tests."
+    ]
+  },
+  {
+    "question": "How should I follow up after an interview?",
+    "answer": "Send a thank-you email within 24 hours.",
+    "examples": [
+      "Thank the interviewer for their time.",
+      "Mention something specific discussed in the interview.",
+      "Reaffirm your interest in the role."
+    ]
+  },
+  {
+    "question": "What are good questions to ask the interviewer?",
+    "answer": "Ask about team structure, tools used, and growth opportunities.",
+    "examples": [
+      "'How does the team collaborate on projects?'",
+      "'What are the biggest challenges in this role?'"
+    ]
+  },
+  {
+    "question": "What’s the STAR method?",
+    "answer": "A technique to structure behavioral answers: Situation, Task, Action, Result.",
+    "examples": [
+      "S: Group conflict. T: Deliver final project. A: Set up roles. R: Finished 2 days early.",
+      "S: Slow deployment. T: Speed it up. A: Set up CI/CD. R: 40% faster delivery."
+    ]
+  },
+  {
+    "question": "Should I memorize answers?",
+    "answer": "No, focus on understanding concepts and preparing flexible stories.",
+    "examples": [
+      "Have 3–5 strong examples ready and adapt them.",
+      "Practice speaking naturally, not scripting."
+    ]
+  },
+  {
+    "question": "What if I get stuck on a coding problem?",
+    "answer": "Explain your thought process, break it down, and stay calm.",
+    "examples": [
+      "Talk through base cases or edge cases.",
+      "Draw diagrams or write pseudocode if allowed."
+    ]
+  },
+  {
+    "question": "Should I include hobbies in my introduction?",
+    "answer": "Yes, if they’re relevant or show transferable skills.",
+    "examples": [
+      "Team sports show collaboration.",
+      "Blogging or YouTube shows communication skills."
+    ]
+  },
+  {
+    "question": "What is a good project to showcase?",
+    "answer": "Choose projects that show your problem-solving, technical stack, and impact.",
+    "examples": [
+      "A portfolio site with animations, APIs, and responsiveness.",
+      "A full-stack CRUD app with auth and database integration."
+    ]
+  },
+  {
+    "question": "Can I use ChatGPT during interview prep?",
+    "answer": "Yes, for mock questions, coding help, or feedback — but practice independently too.",
+    "examples": [
+      "Ask for mock interviews or tips.",
+      "Use it to simplify or debug code explanations."
+    ]
+  },
+  {
+    "question": "How do I explain a gap in my resume?",
+    "answer": "Be honest, brief, and focus on how you used the time productively.",
+    "examples": [
+      "Took time for skill development or family responsibilities.",
+      "Completed courses or freelanced during the break."
+    ]
+  },
+  {
+    "question": "What if I'm interviewing for my first job?",
+    "answer": "Emphasize academic projects, internships, and eagerness to learn.",
+    "examples": [
+      "Talk about college projects where you solved real problems.",
+      "Mention open-source or freelance experience."
+    ]
+  },
+  {
+    "question": "Should I bring a copy of my resume?",
+    "answer": "Yes — always bring at least two printed copies, or keep a PDF ready online.",
+    "examples": [
+      "Print clean versions in a folder.",
+      "Send it digitally via email if it’s an online interview."
+    ]
+  },
+  {
+    "question": "What is a case interview?",
+    "answer": "Case interviews test problem-solving in real-world business or tech scenarios.",
+    "examples": [
+      "Design a scalable food delivery system.",
+      "Reduce churn in a SaaS startup — what steps would you take?"
+    ]
+  }
+]

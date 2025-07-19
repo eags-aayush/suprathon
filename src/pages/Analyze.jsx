@@ -51,9 +51,9 @@ const Analyze = () => {
   return (
     <>
     <Navbar />
-    <div className="min-h-screen flex items-center justify-center bg-background px-4 mt-10 md:m-0">
-      <div className="w-full max-w-3xl rounded-2xl p-8">
-        <p className="text-text mb-6">
+    <div className="my-20 flex items-center justify-center bg-background px-4">
+      <div className="w-full px-8">
+        <p className="text-text text-lg mb-6">
           Upload your interview audio recordings and fill in the details. Our AI evaluates your performance and emails you a detailed report.
         </p>
 

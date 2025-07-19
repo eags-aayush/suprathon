@@ -47,7 +47,15 @@ const Humanize = () => {
               placeholder="Your humanized output will appear here..."
             />
             <button className="cursor-pointer flex items-center justify-center gap-2 px-4 py-2 bg-background text-sm font-medium rounded-b-lg hover:bg-primary transition"
-              onClick={() => navigator.clipboard.writeText(outputText)}
+              onClick={async () => {
+                try {
+                  await navigator.clipboard.writeText(outputText);
+                  alert(`"${outputText}" copied to clipboard!`);
+                } catch (err) {
+                  alert("Failed to copy text.");
+                  console.error("Clipboard error:", err);
+                }
+              }}
             >
               <Clipboard size={18} /> Copy
             </button>

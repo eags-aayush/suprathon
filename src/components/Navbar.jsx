@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className='hidden md:flex justify-between gap-4 items-center'>
         <span className='flex gap-3 items-center'>
           <img src={Logo} alt="logo" className='w-7 h-7 rounded-full'/>
-          <li className='font-bold'>Suprathon</li>
+          <li className='font-bold'>InterviewIQ</li>
         </span>
         <NavLink to="/" className={linkClass}>Home</NavLink>
         <NavLink to="/analyze" className={linkClass}>Analyze</NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <ul className='md:hidden flex flex-row justify-between items-center'>
         <span className='flex gap-3 items-center'>
           <img src={Logo} alt="logo" className='w-10 h-10 rounded-full'/>
-          <li className='font-bold'>Suprathon</li>
+          <li className='font-bold'>InterviewIQ</li>
         </span>
         <section className='flex flex-row gap-4'>
           <button

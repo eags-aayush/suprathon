@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Sun, Moon, Menu, X } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
-import { div } from 'framer-motion/client'
+import Logo from '../../public/logo.webp'
 
 const Navbar = () => {
 
@@ -13,8 +13,11 @@ const Navbar = () => {
 
   return (
     <nav className='z-50 sticky top-10 px-5 py-3 font-light w-3/4 m-auto backdrop-blur-md bg-white/10 border-2 border-text rounded-full'>
-      <ul className='hidden md:flex justify-between gap-4'>
-        <li className='font-bold'>Suprathon</li>
+      <ul className='hidden md:flex justify-between gap-4 items-center'>
+        <span className='flex gap-3 items-center'>
+          <img src={Logo} alt="logo" className='w-7 h-7 rounded-full'/>
+          <li className='font-bold'>Suprathon</li>
+        </span>
         <NavLink to="/" className={linkClass}>Home</NavLink>
         <NavLink to="/analyze" className={linkClass}>Analyze</NavLink>
         <NavLink to="/humanize" className={linkClass}>Humanize</NavLink>
@@ -32,33 +35,34 @@ const Navbar = () => {
 
       </ul>
 
-      <ul className='md:hidden flex flex-row justify-between'>
-
+      <ul className='md:hidden flex flex-row justify-between items-center'>
+        <span className='flex gap-3 items-center'>
+          <img src={Logo} alt="logo" className='w-10 h-10 rounded-full'/>
           <li className='font-bold'>Suprathon</li>
+        </span>
+        <section className='flex flex-row gap-4'>
+          <button
+            onClick={() => {
+              setTheme(!theme);
+              document.documentElement.classList.toggle('dark');
+            }}
+            className="cursor-pointer"
+          >
+            {theme ? <Sun /> : <Moon />}
+          </button>
 
-          <section className='flex flex-row gap-4'>
-            <button
-              onClick={() => {
-                setTheme(!theme);
-                document.documentElement.classList.toggle('dark');
-              }}
-              className="cursor-pointer"
-            >
-              {theme ? <Sun /> : <Moon />}
-            </button>
-
-            <button onClick={() => setIsOpen(!isOpen)}>{isOpen ? <X /> : <Menu />}</button>
-          </section>
-        </ul>
+          <button onClick={() => setIsOpen(!isOpen)}>{isOpen ? <X /> : <Menu />}</button>
+        </section>
+      </ul>
 
       {isOpen && (
         <div className=' absolute top-10 right-0 bg-background text-text p-4 rounded-md'>
-        <ul className='md:hidden flex flex-col gap-4'>
-          <NavLink to="/" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Home</NavLink>
-          <NavLink to="/analyze" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Analyze</NavLink>
-          <NavLink to="/humanize" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Humanize</NavLink>
-          <NavLink to="/theFAQ" onClick={() => setIsOpen(!isOpen)} className={linkClass}>The FAQs</NavLink>
-        </ul>
+          <ul className='md:hidden flex flex-col gap-4'>
+            <NavLink to="/" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Home</NavLink>
+            <NavLink to="/analyze" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Analyze</NavLink>
+            <NavLink to="/humanize" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Humanize</NavLink>
+            <NavLink to="/theFAQ" onClick={() => setIsOpen(!isOpen)} className={linkClass}>The FAQs</NavLink>
+          </ul>
         </div>
       )}
     </nav>

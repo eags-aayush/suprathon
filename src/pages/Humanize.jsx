@@ -26,16 +26,16 @@ const Humanize = () => {
               placeholder="Paste or type your text here..."
             />
             <div className='flex justify-between'>
-            <button className="w-1/2 cursor-pointer flex items-center justify-center gap-2 px-4 py-2 bg-background text-sm font-medium rounded-b-lg hover:bg-primary transition"
-              onClick={() => setInputText('')}
-            >
-              <Send size={18} /> Submit
-            </button>
-            <button className="w-1/2 cursor-pointer flex items-center justify-center gap-2 px-4 py-2 bg-background text-sm font-medium rounded-b-lg hover:bg-primary transition"
-              onClick={() => {setInputText(''); setOutputText('')}}
-            >
-              <Trash2 size={18} /> Reset
-            </button>
+              <button className="w-1/2 cursor-pointer flex items-center justify-center gap-2 px-4 py-2 bg-background text-sm font-medium rounded-b-lg hover:bg-primary transition"
+                onClick={() => setInputText('')}
+              >
+                <Send size={18} /> Submit
+              </button>
+              <button className="w-1/2 cursor-pointer flex items-center justify-center gap-2 px-4 py-2 bg-background text-sm font-medium rounded-b-lg hover:bg-primary transition"
+                onClick={() => { setInputText(''); setOutputText('') }}
+              >
+                <Trash2 size={18} /> Reset
+              </button>
             </div>
           </div>
 

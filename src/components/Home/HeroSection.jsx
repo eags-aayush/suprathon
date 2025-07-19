@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div className="flex flex-row md:flex-row items-center justify-center gap-10">
       <section
-        className="relative h-screen bg-cover bg-center flex items-center 3/4"
+        className="relative h-fit mt-25 mb-25 md:m-0 md:h-screen bg-cover bg-center flex items-center 3/4"
         style={{
           backgroundImage:
             "url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2018_Kerala_floods_rescue_operations.jpg/1920px-2018_Kerala_floods_rescue_operations.jpg')",

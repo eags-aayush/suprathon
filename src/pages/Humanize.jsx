@@ -13,7 +13,7 @@ const Humanize = () => {
       <Navbar />
       <section className="my-20 px-6 flex flex-col items-center gap-10">
         <p className="text-center max-w-3xl text-lg text-gray-700">
-          Paste or upload your interview transcript, and our AI will humanize the text—refining tone, clarity, and grammar.
+          Paste or upload your interview transcript, and our AI will humanize the text, refining tone, clarity, and grammar.
           Instantly get a polished version and receive a detailed edit summary via email.
         </p>
 

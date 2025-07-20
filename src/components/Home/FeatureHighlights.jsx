@@ -15,12 +15,12 @@ const features = [
   {
     title: "Boost Self Esteem",
     icon: <Rocket className="w-8 h-8 text-green-600" />,
-    description: "Personalized feedback and progress tracking to help candidates gain confidence and improve with every attempt.",
+    description: "Personalized feedback to help candidates gain confidence and improve with every attempt.",
   },
   {
     title: "Fluent Communication",
     icon: <Repeat className="w-8 h-8 text-yellow-500" />,
-    description: "Practice and enhance spoken and written skills through guided mock interviews and real-time language analysis.",
+    description: "Practice and enhance spoken and written skills through guided mock interviews.",
   },
   {
     title: "Adaptive Learning",

@@ -24,17 +24,17 @@ const Interview = () => {
                         <div key={index} className="py-1 overflow-hidden divide-y divide-gray-300">
                             <button
                                 onClick={() => toggle(index)}
-                                className="pb-3 w-full flex justify-between items-center text-left cursor-pointer text-text font-medium text-lg focus:outline-none"
+                                className={`pb-3 w-full flex justify-between items-center text-left cursor-pointer text-text font-medium text-lg focus:outline-none ${activeIndex === index ? 'bg-gray-100' : ''}`}
                             >
                                 {itv.title}
                                 <ChevronDown
-                                    className={`w-6 h-6 transform transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''
+                                    className={`w-6 h-6 transform transition-transform duration-300 ${activeIndex === index ? 'rotate-180 ' : ''
                                         }`}
                                 />
                             </button>
 
                             <div
-                                className={`transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                                className={`transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100 bg-gray-100' : 'max-h-0 opacity-0'
                                     } overflow-hidden`}
                             >
                                 <div className=" py-4 space-y-2">

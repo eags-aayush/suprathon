@@ -21,12 +21,12 @@ const Interview = () => {
                     </h1>
 
                     {interviews.map((itv, index) => (
-                        <div key={index} className="overflow-hidden border-b border-gray-200">
+                        <div key={index} className="py-1 overflow-hidden divide-y divide-gray-300">
                             <button
                                 onClick={() => toggle(index)}
-                                className="w-full px-6 py-4 flex justify-between items-center transition"
+                                className="pb-3 w-full flex justify-between items-center text-left cursor-pointer text-text font-medium text-lg focus:outline-none"
                             >
-                                <span className="text-lg font-medium text-text">{itv.title}</span>
+                                {itv.title}
                                 <ChevronDown
                                     className={`w-6 h-6 transform transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''
                                         }`}
@@ -37,7 +37,7 @@ const Interview = () => {
                                 className={`transition-all duration-300 ${activeIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
                                     } overflow-hidden`}
                             >
-                                <div className="px-6 py-4 space-y-2">
+                                <div className=" py-4 space-y-2">
                                     {itv.transcript.map((line, i) => {
                                         const isInterviewer = line.trim().startsWith('Interviewer:');
                                         return (

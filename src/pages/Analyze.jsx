@@ -91,7 +91,7 @@ const Analyze = () => {
             className="p-3 rounded-xl border NavLink placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
 
-          <label className="sm:col-span-2 w-full flex items-center gap-3 px-4 py-3 border border-dashed rounded-xl cursor-pointer border-blue-600 transition shadow-sm">
+          <label className="sm:col-span-2 w-full flex items-center gap-3 px-4 py-3 border border-dashed rounded-xl cursor-pointer border-accent transition shadow-sm">
             <UploadCloud className="w-5 h-5 text-text" />
             <span className="text-text truncate">
               {files.length > 0
@@ -124,7 +124,7 @@ const Analyze = () => {
           <button
             type="submit"
             disabled={loading}
-            className="sm:col-span-2 mt-4 bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition flex items-center justify-center"
+            className="sm:col-span-2 mt-4 bg-accent text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition flex items-center justify-center"
           >
             {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : 'Submit & Analyze'}
           </button>

@@ -61,7 +61,7 @@ const TheFAQ = () => {
     const regex = new RegExp(`(${keywords.join('|')})`, 'gi');
     return text.split(regex).map((part, i) =>
       keywords.some((kw) => kw.toLowerCase() === part.toLowerCase()) ? (
-        <span key={i} className="text-secondary font-semibold">{part}</span>
+        <span key={i} className="text-accent font-semibold">{part}</span>
       ) : (
         part
       )
@@ -76,8 +76,8 @@ const TheFAQ = () => {
     <>
       <Navbar />
       <div className="min-h-screen py-10 px-4">
-        <div className="max-w-4xl mx-auto p-8 rounded-2xl">
-          <h1 className="text-3xl font-bold text-center text-text mb-6">❓ Frequently Asked Questions</h1>
+        <div className="max-w-4xl mx-auto space-y-8">
+          <h1 className="text-3xl font-bold text-center text-text mt-10 mb-8">❓ Frequently Asked Questions</h1>
 
           <input
             type="text"
@@ -97,7 +97,7 @@ const TheFAQ = () => {
                   >
                     {faq.question}
                     <ChevronDown
-                      className={`w-5 h-5 transform transition-transform duration-300 ${
+                      className={`w-6 h-6 transform transition-transform duration-300 ${
                         activeIndex === index ? 'rotate-180' : ''
                       }`}
                     />

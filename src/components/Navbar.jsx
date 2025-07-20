@@ -21,6 +21,7 @@ const Navbar = () => {
         <NavLink to="/" className={linkClass}>Home</NavLink>
         <NavLink to="/analyze" className={linkClass}>Analyze</NavLink>
         <NavLink to="/humanize" className={linkClass}>Humanize</NavLink>
+        <NavLink to="/interviews" className={linkClass}>Interviews</NavLink>
         <NavLink to="/theFAQ" className={linkClass}>The FAQs</NavLink>
 
         <button
@@ -61,6 +62,7 @@ const Navbar = () => {
             <NavLink to="/" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Home</NavLink>
             <NavLink to="/analyze" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Analyze</NavLink>
             <NavLink to="/humanize" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Humanize</NavLink>
+            <NavLink to="/interviews" onClick={() => setIsOpen(!isOpen)} className={linkClass}>Interviews</NavLink>
             <NavLink to="/theFAQ" onClick={() => setIsOpen(!isOpen)} className={linkClass}>The FAQs</NavLink>
           </ul>
         </div>

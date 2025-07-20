@@ -15,7 +15,8 @@
     --text: #000;
     --primary: #b1adff;
     --secondary: #bd1c5c;
-    --accent: #76a28c;
+    --accent: #5c53f7;
+    /* --accent: #76a28c; */
 }
 
 .dark{
@@ -24,5 +25,6 @@
     --text: #fff;
     --primary: #2f27ce;
     --secondary: #eb7faa;
-    --accent: #5d8973;
+    --accent: #5c53f7;
+    /* --accent: #5d8973; */
 }
